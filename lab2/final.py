@@ -78,7 +78,7 @@ LST = []  # optimal combination
 RELIA = []  # Reliability
 FORPRINT = [['']for i in range(4)]  # print result
 
-# change the start of j
+#changes for R10
 START = [10000 for i in range(14)]
 for i in range(1, 14):
     for j in range(0, 500):
