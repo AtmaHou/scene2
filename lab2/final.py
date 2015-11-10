@@ -7,7 +7,7 @@ import time
 import ast
 
 F1 = open("SERVICE.txt")
-F1FIRST = []  # original data such as ffirst[0] = ['A-1', '954.21', '0.92', '19.33', '80.58']
+F1FIRST = []  
 for i in range(0, 7000):
     F1FIRST.append(F1.readline().strip().split(' '))
 F1.close()

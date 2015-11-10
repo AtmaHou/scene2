@@ -69,9 +69,7 @@ OPTIONDATA = [[]for i in range(4)]  # service activities
 for i in range(0, 4):
     for j in range(0, len(F2OPTION[i])):
         OPTIONDATA[i].append(ord(F2OPTION[i][j]) - 65)
-# for i in range(4):
-#     print OPTIONDATA[i]
-# print "====================================================="
+
 Q = []
 PRICE = []
 LST = []  # optimal combination
