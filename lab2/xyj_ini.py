@@ -106,7 +106,7 @@ for m in range(4):
     
     prince = price[:]
     Lst = []
-    #change for R12
+    # merge changes
     #search the optimal combination      
     for i in range(len(optiondata[m])-1,-1,-1):
         Lst.append(tage[i][prince[-1]]+1)
